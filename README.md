@@ -1,2 +1,0 @@
-# polygon
-Created with CodeSandbox
