@@ -9,6 +9,8 @@ function App() {
   const [circleSize, setCircleSize] = useState(80);
   const [circleColor, setCircleColor] = useState("#00ffff");
 
+  // Sacar la función fuera del componente para evitar que se renderice continuamente.
+  // Idealmente guardarla en una carpeta helpers o utils
   const allEqual = (arr) => arr.every((v) => v === arr[0]);
 
   useEffect(() => {
