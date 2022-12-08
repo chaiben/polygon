@@ -24,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* Utilizar un parrafo (<p>) para contener un formulario no es adecuado, mejor usa un <div> */}
       <p>
         <SizeColorForm
           id="triangle"
