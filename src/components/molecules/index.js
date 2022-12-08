@@ -1,3 +1,4 @@
-import SizeColorForm from "./SizeColorForm";
+import InputColorGroup from "./InputColorGroup";
+import InputNumberGroup from "./InputNumberGroup";
 
-export { SizeColorForm };
+export { InputColorGroup, InputNumberGroup };
