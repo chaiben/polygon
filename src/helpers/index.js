@@ -1,3 +1,3 @@
-const allEqual = (arr) => arr.every((v) => v === arr[0]);
+import allEqual from "./allEqual.helper";
 
 export { allEqual };
